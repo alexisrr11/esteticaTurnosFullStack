@@ -1,20 +1,20 @@
 {
   "name": "back-estetica",
   "version": "1.0.0",
-  "description": "estetica back",
-  "main": "index.js",
+  "description": "Backend de estética con API REST y PostgreSQL",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "author": "Devxis",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2"
+    "pg": "^8.13.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
