@@ -1,0 +1,13 @@
+GET http://localhost:4000/plantas HTTP/1.1
+###
+GET http://localhost:4000/plantas/3 HTTP/1.1
+###
+POST http://localhost:4000/plantas/ HTTP/1.1
+Content-Type: application/json
+
+{
+      "img": "https://www.cumhuriyet.com.tr/Archive/2023/1/12/123009010-lavanta1.jpg", 
+      "nombre": "Palmera",
+      "precio": 2050,
+      "descripcion": "Arbol re loco..."
+}

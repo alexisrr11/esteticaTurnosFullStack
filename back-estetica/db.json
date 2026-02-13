@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Oriana O'lery",
+    "fecha": "2025-06-23",
+    "hora": "09:00"
+  },
+  {
+    "id": 2,
+    "nombre": "Alexis Rodriguez",
+    "fecha": "2025-06-24",
+    "hora": "12:00"
+  },
+  {
+    "id": 3,
+    "nombre": "Diegol",
+    "fecha": "2025-06-23",
+    "hora": "19:00"
+  },
+  {
+    "id": 4,
+    "nombre": "Alexis Rodriguez",
+    "fecha": "2025-06-23",
+    "hora": "18:00"
+  }
+]
